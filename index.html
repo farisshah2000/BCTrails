@@ -1,14 +1,48 @@
-<html>
-    <head>
-        <h1>BCTrails</h1>
-        <h2>Beautiful British Columbia</h2>
-    </head>
+<!DOCTYPE html>
+<html lang="en">
 
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrailsofBC</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
 
-    </body>
+<body>
+    <header>
+        <nav aria-label="Main Navigation">
+        <button id="hamburger-menu">☰</button>
+        <ul>
+            <li><a href="#trails">All Trails</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <button id="login-button">Log in</button>
+    </nav>
+        <h1>Find your trail</h1>
+        <form>
+            <input type="search" placeholder="Search trails...">
+            <button type="submit">explore</button>
+        </form>
+    </header>
 
+    <section id="trails" class="hidden">
+        <h2>Trails in British Columbia</h2>
+        <div id="trail-container"></div>
+    </section>
+
+    <section id="about" class="hidden">
+        <h2>About us</h2>
+    </section>
+
+    <section id="contact" class="hidden">
+        <h2>Feel free to contact us</h2>
+    </section>
+
+    <script src="js/script.js" defer></script>
     <footer>
-
+        <p>© 2026 Faris Shah. Built with HTML, CSS and Javascript</p>
     </footer>
+
+</body>
 </html>

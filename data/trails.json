@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Garibaldi Lake",
+        "location": "Squamish",
+        "difficulty": "Moderate",
+        "distance": "18 km",
+        "elevationGain":"820 m",
+        "estimatedTime": "5-7 hours"
+
+    },
+    {
+        "name": "Joffre Lakes",
+        "location": "Pemberton",
+        "difficulty": "Easy",
+        "distance": "10 km",
+        "elevationGain": "500 m",
+        "estimatedTime": "3 hours"
+    },
+    {
+        "name": "Stawamus Chief",
+        "location": "Squamish",
+        "difficulty": "Hard",
+        "distance": "6 km",
+        "elevationGain": "3 m",
+        "estimatedTime": "1 hour"
+    }
+]
